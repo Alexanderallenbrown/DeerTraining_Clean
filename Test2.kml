@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Test2.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="m_ylw-pushpin0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl0">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Folder>
+		<name>Test2</name>
+		<open>1</open>
+		<Placemark>
+			<name>RoadStart</name>
+			<LookAt>
+				<longitude>-75.11245807506882</longitude>
+				<latitude>40.41443462590982</latitude>
+				<altitude>0</altitude>
+				<heading>-0.001044569405023248</heading>
+				<tilt>11.82191559746965</tilt>
+				<range>295.1093306189905</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-75.11265152970469,40.41456644849666,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>RoadEnd</name>
+			<LookAt>
+				<longitude>-75.11035929274939</longitude>
+				<latitude>40.41342449349709</latitude>
+				<altitude>0</altitude>
+				<heading>0.0003160794989338524</heading>
+				<tilt>11.82191675862076</tilt>
+				<range>295.7405642748226</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-75.10899767989393,40.41269373785851,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Elev158</name>
+			<LookAt>
+				<longitude>-75.11025188162881</longitude>
+				<latitude>40.41317214896452</latitude>
+				<altitude>0</altitude>
+				<heading>0.0003857033827546625</heading>
+				<tilt>11.82191611162467</tilt>
+				<range>295.3886324956076</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-75.11025188162881,40.41317214896452,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Trees1</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-75.11176696902689,40.41420878796526,0 -75.11085559588614,40.41371703076285,0 -75.110790916781,40.41405369466335,0 -75.1104816011927,40.41441380053308,0 -75.11114592943764,40.41486353270928,0 -75.11176696902689,40.41420878796526,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Trees2</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-75.11104680027711,40.41369290963787,0 -75.11073912025564,40.41351954525624,0 -75.11173504939022,40.41266990461678,0 -75.11150024018396,40.41252808172143,0 -75.11161813093764,40.41239867815428,0 -75.11203716399301,40.41261670776449,0 -75.11096186016732,40.41352605185247,0 -75.11113879967166,40.41360397996234,0 -75.11104680027711,40.41369290963787,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Trees3</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-75.11158953704417,40.41506073662976,0 -75.11167457488861,40.4149420234445,0 -75.11154239707568,40.41473695303473,0 -75.1114004559183,40.41490980466676,0 -75.11158953704417,40.41506073662976,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Trees4</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-75.11264468149427,40.41452317941499,0 -75.11270252649778,40.41443543062869,0 -75.11257528312316,40.41440000359734,0 -75.11238495452454,40.41429136074973,0 -75.11211386116345,40.41418739429346,0 -75.11207101006818,40.41422679475639,0 -75.11264468149427,40.41452317941499,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Trees5</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-75.11152775950104,40.41395119966543,0 -75.11156450643632,40.413902565081,0 -75.11143146433731,40.4138243100107,0 -75.11128987208269,40.41378624369368,0 -75.11124268781577,40.41373758263135,0 -75.11119816891402,40.41376944968088,0 -75.11152775950104,40.41395119966543,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Trees7</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-75.11064114886064,40.41347372528917,0 -75.1106580310371,40.41344033632551,0 -75.1105249910141,40.41336587998187,0 -75.11046763772994,40.41339745374142,0 -75.11050571425662,40.41343733990134,0 -75.11064114886064,40.41347372528917,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Trees8</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-75.11027376279839,40.41329136454013,0 -75.10979797708239,40.41306875091496,0 -75.10985541985001,40.41299390924664,0 -75.11031004966867,40.41327542793203,0 -75.11027376279839,40.41329136454013,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Trees6</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-75.11080851353945,40.41371147187456,0 -75.11068398316414,40.41364299303199,0 -75.1099455973356,40.41438161669092,0 -75.11003238549146,40.41442207010854,0 -75.11023297395349,40.41424436919539,0 -75.11038803948614,40.41407702633802,0 -75.11059556110435,40.41393726949914,0 -75.11061104818913,40.41384045235623,0 -75.11080851353945,40.41371147187456,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Trees9</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-75.10973355007611,40.41294319514036,0 -75.10970055818493,40.41299769738043,0 -75.10902796144208,40.41267581055723,0 -75.10907638994729,40.41260245933753,0 -75.1093190385338,40.41276549047022,0 -75.10953568735076,40.41287124335966,0 -75.10973355007611,40.41294319514036,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Trees10</name>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-75.11239907756179,40.41451192008179,0 -75.11237451812686,40.41454610735578,0 -75.11246690995624,40.41463559740413,0 -75.11248562334904,40.41464547916357,0 -75.11248832400274,40.41464747295528,0 -75.11243769109549,40.41479925186427,0 -75.11201959094777,40.41510061031915,0 -75.11177669883033,40.41525805314537,0 -75.11166434415864,40.41540024290601,0 -75.11175208401762,40.41547940552628,0 -75.11265094900658,40.41468943325891,0 -75.11255298447988,40.4145803761811,0 -75.11239907756179,40.41451192008179,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

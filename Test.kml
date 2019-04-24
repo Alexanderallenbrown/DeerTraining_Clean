@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Test.kml</name>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl0">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin0">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Folder>
+		<name>Test</name>
+		<open>1</open>
+		<Placemark>
+			<name>Trees1</name>
+			<styleUrl>#m_ylw-pushpin0</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-75.11118669627852,40.41483097713038,0 -75.1104567684432,40.41481129543165,0 -75.11020480424597,40.4145404711101,0 -75.11042969609879,40.41434574082188,0 -75.11084488365394,40.41380135860764,0 -75.11176124600064,40.41423836880203,0 -75.11118669627852,40.41483097713038,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>RoadStart</name>
+			<LookAt>
+				<longitude>-75.11124269943706</longitude>
+				<latitude>40.41382818931895</latitude>
+				<altitude>0</altitude>
+				<heading>125.2819546265194</heading>
+				<tilt>30.00313766318531</tilt>
+				<range>698.5681939604445</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-75.11264517462727,40.41456873144024,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>RoadEnd</name>
+			<LookAt>
+				<longitude>-75.11124752196208</longitude>
+				<latitude>40.41382228028574</latitude>
+				<altitude>0</altitude>
+				<heading>125.2819515081261</heading>
+				<tilt>30.00313807891317</tilt>
+				<range>698.6605475458368</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-75.11081205276598,40.41362556075807,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>Elev159</name>
+			<LookAt>
+				<longitude>-75.1141764276416</longitude>
+				<latitude>40.41644976471326</latitude>
+				<altitude>0</altitude>
+				<heading>0.006641972488046055</heading>
+				<tilt>44.99983372723836</tilt>
+				<range>973.8450181408836</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<styleUrl>#m_ylw-pushpin</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>-75.11169309762114,40.414040239881,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>
