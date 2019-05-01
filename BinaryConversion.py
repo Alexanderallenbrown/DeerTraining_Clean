@@ -2,7 +2,7 @@ import sys
 from numpy import *
 from BicycleModel import *
 from matplotlib.pyplot import *
-from Deer import *
+# from Deer import *
 
 def BinaryConversion_Escape(ind):
 
