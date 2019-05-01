@@ -152,11 +152,11 @@ class BicycleModel:
                 self.Fyr = -self.Fzr*self.mu*sign(self.x[1]-self.b*self.x[5])
 
         Ydot = x[1]*cos(x[4])+x[3]*sin(x[4]) #north velocity NOT local!
-        vdot = -x[3]*x[5] + 1/self.m*(self.Fyf+self.Fyr) #derivative of local lateral velocity
+        vdot = -x[3]*x[5] + 1/self.m*(self.Fyf+Fxf*delta+self.Fyr) #derivative of local lateral velocity
         Xdot = x[3]*cos(x[4])-x[1]*sin(x[4]) #East velocity NOT local!
-        Udot = x[5]*x[1]+(Fxf+Fxr)/self.m #this is the derivative of local forward speed
+        Udot = x[5]*x[1]+(Fxf-self.Fyf*delta +Fxr)/self.m #this is the derivative of local forward speed
         Psidot = x[5]
-        rdot = (self.a*self.Fyf-self.b*self.Fyr)/self.I #cosines in there? Small angle? Sounds/Looks OK...
+        rdot = (self.a*(self.Fyf+Fxf*delta)-self.b*self.Fyr)/self.I #cosines in there? Small angle? Sounds/Looks OK...
         #print array([[Ydot],[vdot],[Xdot],[Udot],[Psidot],[rdot]])
         return array([Ydot,vdot,Xdot,Udot,Psidot,rdot])
 
